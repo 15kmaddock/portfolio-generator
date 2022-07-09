@@ -1,4 +1,4 @@
-const inquirer = import('inquirer')
+const inquirer = require('inquirer')
 
 console.log(inquirer)
 
