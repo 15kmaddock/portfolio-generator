@@ -1,6 +1,15 @@
 const inquirer = require('inquirer')
 
-console.log(inquirer)
+inquirer
+    .prompt([
+        {
+            type: 'input',
+            name: 'name',
+            message: 'what is your name?'
+        }
+    ])
+
+    .then(answers => console.log(answers));
 
 //const fs = require('fs');
 
